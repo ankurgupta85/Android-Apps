@@ -1,0 +1,44 @@
+{
+    "filters": [
+        {
+            "key": "type",
+            "values": ["cotton","wool"]
+        },
+        {
+            "key": "id",
+            "values": ["1","2","3","4","5"]
+        },
+        {
+            "key": "Made In ",
+            "values": ["USA","India","Japan","China","UK"]
+        },
+        {
+            "key": "Music ",
+            "values": ["Electronic","Jazz","Pop","Dance"]
+        },
+        {
+            "key": "MBA ",
+            "values": ["ABC","DEF","GHI","JKL"]
+        },
+        {
+            "key": "Demo ",
+            "values": ["A","B","C","D"]
+        },
+        {
+            "key": "Demo1 ",
+            "values": ["A","B","C","D"]
+        },
+        {
+            "key": "Demo2 ",
+            "values": ["A","B","C","D"]
+        },
+        {
+            "key": "Demo3 ",
+            "values": ["A","B","C","D"]
+        },
+        {
+            "key": "Demo4 ",
+            "values": ["A","B","C","D"]
+        }
+    ]
+}

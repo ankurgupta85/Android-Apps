@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+   
+    <EditText
+        android:id="@+id/text_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   android:inputType="textUri"
+   android:text="http://"
+        />
+    
+   <ImageView 
+       android:id="@+id/imageview"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scaleType="fitXY"
+       android:layout_below="@id/text_url"
+       />
+
+<Button
+    android:id="@+id/load_image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@id/imageview"
+    android:layout_alignLeft="@id/imageview"
+    android:text="Load Image" />
+
+<Button
+    android:id="@+id/continue_game"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@id/imageview"
+    android:layout_alignRight="@id/imageview"
+    android:layout_marginRight="28dp"
+    android:text="Continue" />
+   
+</RelativeLayout>

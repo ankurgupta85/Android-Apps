@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".KnowProduct" >
+
+    <EditText
+        android:id="@+id/product_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp"
+        android:ems="10"
+        android:maxLength="140"
+        android:hint="@string/product_desc"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/submit"
+        android:layout_alignBottom="@+id/submit"
+        android:layout_alignRight="@+id/product_desc"
+        android:layout_marginRight="41dp"
+        android:text="@string/clear" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/product_desc"
+        android:layout_below="@+id/product_desc"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="92dp"
+        android:text="@string/search" />
+
+    <TextView
+        android:id="@+id/from_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/submit"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="34dp"
+        android:text="From" />
+
+    <TextView
+        android:id="@+id/to_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/from_date"
+        android:layout_alignBottom="@+id/from_date"
+        android:layout_alignRight="@+id/clear"
+        android:layout_marginRight="36dp"
+        android:text="To" />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.puzzle.n_puzzle_project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        
+        
+         >
+        <activity
+            android:name="com.puzzle.n_puzzle_project.MainPage"
+            android:label="@string/app_name"
+            
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+					
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.puzzle.n_puzzle_project.Game_type_selection"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" 
+            
+            >
+        </activity>
+        <activity
+            android:name="com.puzzle.n_puzzle_project.Scores_Display"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.puzzle.n_puzzle_project.Easy_Scores"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.puzzle.n_puzzle_project.Medium_Scores"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.puzzle.n_puzzle_project.Hard_Scores"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.puzzle.n_puzzle_project.Help"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.puzzle.n_puzzle_project.Game"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.puzzle.n_puzzle_project.Continue_Game"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.puzzle.n_puzzle_project.Select_Game_Type"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"  >
+        </activity>
+        <activity
+            android:name="com.puzzle.n_puzzle_project.Image_From_URL"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.puzzle.n_puzzle_project.Image_From_Gallery"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.puzzle.n_puzzle_project.Confirm_Image"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.puzzle.n_puzzle_project.TempActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            
+        </activity>
+<activity
+            android:name="com.puzzle.n_puzzle_project.SplitImage"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        </application>
+
+</manifest>

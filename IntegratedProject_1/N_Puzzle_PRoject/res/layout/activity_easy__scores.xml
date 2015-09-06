@@ -1,0 +1,32 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"> 
+
+        <TableLayout android:id="@+id/easy_table_layout" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:spacing="10dip" 
+                android:showDividers="beginning|middle|end"
+                > 
+                 
+             
+
+        </TableLayout> 
+
+</ScrollView> 
+   <!-- 
+  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/easy_table_layout"
+      xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0"
+    android:padding="5dp"
+    android:scrollbars="horizontal">
+      
+  
+    </TableLayout>
+    
+ 
+ -->

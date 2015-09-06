@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/Main_Page"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Main Page"/>
+    
+
+        <item
+        android:id="@+id/Different_Game"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="Select Image"/>
+         <item
+        android:id="@+id/Scores"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="Scores"/>
+        
+          <item
+        android:id="@+id/Help"
+        android:orderInCategory="400"
+        android:showAsAction="never"
+        android:title="Help"/>
+
+</menu>
